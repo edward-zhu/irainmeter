@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417509181840412700F675D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417509171840412700F675D8 /* Cocoa.framework */; };
+		417509221840412700F675D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 417509201840412700F675D8 /* InfoPlist.strings */; };
+		417509241840412700F675D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417509231840412700F675D8 /* main.m */; };
+		417509281840412700F675D8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 417509261840412700F675D8 /* Credits.rtf */; };
+		4175092B1840412700F675D8 /* irainmeterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175092A1840412700F675D8 /* irainmeterAppDelegate.m */; };
+		4175092E1840412700F675D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4175092C1840412700F675D8 /* MainMenu.xib */; };
+		417509301840412700F675D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4175092F1840412700F675D8 /* Images.xcassets */; };
+		417509371840412700F675D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417509361840412700F675D8 /* XCTest.framework */; };
+		417509381840412700F675D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417509171840412700F675D8 /* Cocoa.framework */; };
+		417509401840412700F675D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4175093E1840412700F675D8 /* InfoPlist.strings */; };
+		417509421840412700F675D8 /* iRainmeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417509411840412700F675D8 /* iRainmeterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417509391840412700F675D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4175090C1840412700F675D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417509131840412700F675D8;
+			remoteInfo = iRainmeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417509141840412700F675D8 /* iRainmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRainmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417509171840412700F675D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4175091A1840412700F675D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4175091B1840412700F675D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4175091C1840412700F675D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4175091F1840412700F675D8 /* iRainmeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRainmeter-Info.plist"; sourceTree = "<group>"; };
+		417509211840412700F675D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		417509231840412700F675D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		417509251840412700F675D8 /* iRainmeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRainmeter-Prefix.pch"; sourceTree = "<group>"; };
+		417509271840412700F675D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		417509291840412700F675D8 /* irainmeterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = irainmeterAppDelegate.h; sourceTree = "<group>"; };
+		4175092A1840412700F675D8 /* irainmeterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = irainmeterAppDelegate.m; sourceTree = "<group>"; };
+		4175092D1840412700F675D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4175092F1840412700F675D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		417509351840412700F675D8 /* iRainmeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRainmeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417509361840412700F675D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4175093D1840412700F675D8 /* iRainmeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRainmeterTests-Info.plist"; sourceTree = "<group>"; };
+		4175093F1840412700F675D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		417509411840412700F675D8 /* iRainmeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRainmeterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417509111840412700F675D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417509181840412700F675D8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417509321840412700F675D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417509381840412700F675D8 /* Cocoa.framework in Frameworks */,
+				417509371840412700F675D8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4175090B1840412700F675D8 = {
+			isa = PBXGroup;
+			children = (
+				4175091D1840412700F675D8 /* iRainmeter */,
+				4175093B1840412700F675D8 /* iRainmeterTests */,
+				417509161840412700F675D8 /* Frameworks */,
+				417509151840412700F675D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417509151840412700F675D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417509141840412700F675D8 /* iRainmeter.app */,
+				417509351840412700F675D8 /* iRainmeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417509161840412700F675D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417509171840412700F675D8 /* Cocoa.framework */,
+				417509361840412700F675D8 /* XCTest.framework */,
+				417509191840412700F675D8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		417509191840412700F675D8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4175091A1840412700F675D8 /* AppKit.framework */,
+				4175091B1840412700F675D8 /* CoreData.framework */,
+				4175091C1840412700F675D8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4175091D1840412700F675D8 /* iRainmeter */ = {
+			isa = PBXGroup;
+			children = (
+				417509291840412700F675D8 /* irainmeterAppDelegate.h */,
+				4175092A1840412700F675D8 /* irainmeterAppDelegate.m */,
+				4175092C1840412700F675D8 /* MainMenu.xib */,
+				4175092F1840412700F675D8 /* Images.xcassets */,
+				4175091E1840412700F675D8 /* Supporting Files */,
+			);
+			path = iRainmeter;
+			sourceTree = "<group>";
+		};
+		4175091E1840412700F675D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4175091F1840412700F675D8 /* iRainmeter-Info.plist */,
+				417509201840412700F675D8 /* InfoPlist.strings */,
+				417509231840412700F675D8 /* main.m */,
+				417509251840412700F675D8 /* iRainmeter-Prefix.pch */,
+				417509261840412700F675D8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4175093B1840412700F675D8 /* iRainmeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				417509411840412700F675D8 /* iRainmeterTests.m */,
+				4175093C1840412700F675D8 /* Supporting Files */,
+			);
+			path = iRainmeterTests;
+			sourceTree = "<group>";
+		};
+		4175093C1840412700F675D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4175093D1840412700F675D8 /* iRainmeterTests-Info.plist */,
+				4175093E1840412700F675D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417509131840412700F675D8 /* iRainmeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417509451840412700F675D8 /* Build configuration list for PBXNativeTarget "iRainmeter" */;
+			buildPhases = (
+				417509101840412700F675D8 /* Sources */,
+				417509111840412700F675D8 /* Frameworks */,
+				417509121840412700F675D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRainmeter;
+			productName = iRainmeter;
+			productReference = 417509141840412700F675D8 /* iRainmeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417509341840412700F675D8 /* iRainmeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417509481840412700F675D8 /* Build configuration list for PBXNativeTarget "iRainmeterTests" */;
+			buildPhases = (
+				417509311840412700F675D8 /* Sources */,
+				417509321840412700F675D8 /* Frameworks */,
+				417509331840412700F675D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4175093A1840412700F675D8 /* PBXTargetDependency */,
+			);
+			name = iRainmeterTests;
+			productName = iRainmeterTests;
+			productReference = 417509351840412700F675D8 /* iRainmeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4175090C1840412700F675D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = irainmeter;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "祝嘉栋";
+				TargetAttributes = {
+					417509341840412700F675D8 = {
+						TestTargetID = 417509131840412700F675D8;
+					};
+				};
+			};
+			buildConfigurationList = 4175090F1840412700F675D8 /* Build configuration list for PBXProject "iRainmeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4175090B1840412700F675D8;
+			productRefGroup = 417509151840412700F675D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417509131840412700F675D8 /* iRainmeter */,
+				417509341840412700F675D8 /* iRainmeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417509121840412700F675D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417509221840412700F675D8 /* InfoPlist.strings in Resources */,
+				417509301840412700F675D8 /* Images.xcassets in Resources */,
+				417509281840412700F675D8 /* Credits.rtf in Resources */,
+				4175092E1840412700F675D8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417509331840412700F675D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417509401840412700F675D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417509101840412700F675D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4175092B1840412700F675D8 /* irainmeterAppDelegate.m in Sources */,
+				417509241840412700F675D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417509311840412700F675D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417509421840412700F675D8 /* iRainmeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4175093A1840412700F675D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417509131840412700F675D8 /* iRainmeter */;
+			targetProxy = 417509391840412700F675D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417509201840412700F675D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417509211840412700F675D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		417509261840412700F675D8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417509271840412700F675D8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4175092C1840412700F675D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4175092D1840412700F675D8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4175093E1840412700F675D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4175093F1840412700F675D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417509431840412700F675D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		417509441840412700F675D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		417509461840412700F675D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRainmeter/iRainmeter-Prefix.pch";
+				INFOPLIST_FILE = "iRainmeter/iRainmeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		417509471840412700F675D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRainmeter/iRainmeter-Prefix.pch";
+				INFOPLIST_FILE = "iRainmeter/iRainmeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		417509491840412700F675D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRainmeter.app/Contents/MacOS/iRainmeter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRainmeter/iRainmeter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iRainmeterTests/iRainmeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4175094A1840412700F675D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRainmeter.app/Contents/MacOS/iRainmeter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRainmeter/iRainmeter-Prefix.pch";
+				INFOPLIST_FILE = "iRainmeterTests/iRainmeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4175090F1840412700F675D8 /* Build configuration list for PBXProject "iRainmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417509431840412700F675D8 /* Debug */,
+				417509441840412700F675D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417509451840412700F675D8 /* Build configuration list for PBXNativeTarget "iRainmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417509461840412700F675D8 /* Debug */,
+				417509471840412700F675D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417509481840412700F675D8 /* Build configuration list for PBXNativeTarget "iRainmeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417509491840412700F675D8 /* Debug */,
+				4175094A1840412700F675D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4175090C1840412700F675D8 /* Project object */;
+}
