@@ -18,6 +18,7 @@
 		417509381840412700F675D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417509171840412700F675D8 /* Cocoa.framework */; };
 		417509401840412700F675D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4175093E1840412700F675D8 /* InfoPlist.strings */; };
 		417509421840412700F675D8 /* iRainmeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417509411840412700F675D8 /* iRainmeterTests.m */; };
+		4175094D1840479000F675D8 /* CityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175094C1840479000F675D8 /* CityInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		4175093D1840412700F675D8 /* iRainmeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRainmeterTests-Info.plist"; sourceTree = "<group>"; };
 		4175093F1840412700F675D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		417509411840412700F675D8 /* iRainmeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRainmeterTests.m; sourceTree = "<group>"; };
+		4175094B1840479000F675D8 /* CityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityInfo.h; sourceTree = "<group>"; };
+		4175094C1840479000F675D8 /* CityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		4175091D1840412700F675D8 /* iRainmeter */ = {
 			isa = PBXGroup;
 			children = (
+				4175094B1840479000F675D8 /* CityInfo.h */,
+				4175094C1840479000F675D8 /* CityInfo.m */,
 				417509291840412700F675D8 /* irainmeterAppDelegate.h */,
 				4175092A1840412700F675D8 /* irainmeterAppDelegate.m */,
 				4175092C1840412700F675D8 /* MainMenu.xib */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4175092B1840412700F675D8 /* irainmeterAppDelegate.m in Sources */,
+				4175094D1840479000F675D8 /* CityInfo.m in Sources */,
 				417509241840412700F675D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

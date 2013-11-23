@@ -7,9 +7,19 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CityInfo.h"
 
-@interface irainmeterAppDelegate : NSObject <NSApplicationDelegate>
+@interface irainmeterAppDelegate : NSObject <NSApplicationDelegate, CityInfoDelegate>
+{
+    NSTimer * timer;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property NSStatusItem *item;
+@property (weak) IBOutlet NSTextField *cityTextEdit;
+@property (weak) IBOutlet NSTextField *timeIntlTextEdit;
+- (IBAction)applyButton:(id)sender;
 
+@property (weak) IBOutlet NSMenu *statusMenu;
+- (IBAction)settingButton:(id)sender;
 @end
