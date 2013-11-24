@@ -12,6 +12,8 @@
 @interface irainmeterAppDelegate : NSObject <NSApplicationDelegate, CityInfoDelegate>
 {
     NSTimer * timer;
+    NSMenuItem * forcastMenuItem;
+    NSMenuItem * cityMenuItem;
 }
 
 @property (assign) IBOutlet NSWindow *window;

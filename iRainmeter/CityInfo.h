@@ -17,12 +17,16 @@
 
 - (id)initWithCity:(NSString *)city;
 - (void)getInfo:(id<CityInfoDelegate>)delegate;
+- (NSString *)getOneDayForcast;
+
++ (BOOL)isValidCity:(NSString *)city;
 
 
 @end
 
 @protocol CityInfoDelegate <NSObject>
 
-- (void)didReceived:(NSString *)data;
+- (void)waitForReceive;
+- (void)didReceived:(NSString *)data withDailyForcast:(NSString *)dForcast;
 
 @end

@@ -13,12 +13,12 @@
 		417509281840412700F675D8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 417509261840412700F675D8 /* Credits.rtf */; };
 		4175092B1840412700F675D8 /* irainmeterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175092A1840412700F675D8 /* irainmeterAppDelegate.m */; };
 		4175092E1840412700F675D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4175092C1840412700F675D8 /* MainMenu.xib */; };
-		417509301840412700F675D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4175092F1840412700F675D8 /* Images.xcassets */; };
 		417509371840412700F675D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417509361840412700F675D8 /* XCTest.framework */; };
 		417509381840412700F675D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417509171840412700F675D8 /* Cocoa.framework */; };
 		417509401840412700F675D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4175093E1840412700F675D8 /* InfoPlist.strings */; };
 		417509421840412700F675D8 /* iRainmeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417509411840412700F675D8 /* iRainmeterTests.m */; };
 		4175094D1840479000F675D8 /* CityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175094C1840479000F675D8 /* CityInfo.m */; };
+		4175095318422D5500F675D8 /* iRainmeter.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 4175095218422D5500F675D8 /* iRainmeter.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		417509291840412700F675D8 /* irainmeterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = irainmeterAppDelegate.h; sourceTree = "<group>"; };
 		4175092A1840412700F675D8 /* irainmeterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = irainmeterAppDelegate.m; sourceTree = "<group>"; };
 		4175092D1840412700F675D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4175092F1840412700F675D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		417509351840412700F675D8 /* iRainmeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRainmeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		417509361840412700F675D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4175093D1840412700F675D8 /* iRainmeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRainmeterTests-Info.plist"; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		417509411840412700F675D8 /* iRainmeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRainmeterTests.m; sourceTree = "<group>"; };
 		4175094B1840479000F675D8 /* CityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityInfo.h; sourceTree = "<group>"; };
 		4175094C1840479000F675D8 /* CityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityInfo.m; sourceTree = "<group>"; };
+		4175095218422D5500F675D8 /* iRainmeter.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = iRainmeter.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		4175090B1840412700F675D8 = {
 			isa = PBXGroup;
 			children = (
+				4175095218422D5500F675D8 /* iRainmeter.iconset */,
 				4175091D1840412700F675D8 /* iRainmeter */,
 				4175093B1840412700F675D8 /* iRainmeterTests */,
 				417509161840412700F675D8 /* Frameworks */,
@@ -123,7 +124,6 @@
 				417509291840412700F675D8 /* irainmeterAppDelegate.h */,
 				4175092A1840412700F675D8 /* irainmeterAppDelegate.m */,
 				4175092C1840412700F675D8 /* MainMenu.xib */,
-				4175092F1840412700F675D8 /* Images.xcassets */,
 				4175091E1840412700F675D8 /* Supporting Files */,
 			);
 			path = iRainmeter;
@@ -236,8 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4175095318422D5500F675D8 /* iRainmeter.iconset in Resources */,
 				417509221840412700F675D8 /* InfoPlist.strings in Resources */,
-				417509301840412700F675D8 /* Images.xcassets in Resources */,
 				417509281840412700F675D8 /* Credits.rtf in Resources */,
 				4175092E1840412700F675D8 /* MainMenu.xib in Resources */,
 			);
@@ -389,7 +389,6 @@
 		417509461840412700F675D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRainmeter/iRainmeter-Prefix.pch";
@@ -402,7 +401,6 @@
 		417509471840412700F675D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRainmeter/iRainmeter-Prefix.pch";
@@ -471,6 +469,7 @@
 				417509471840412700F675D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		417509481840412700F675D8 /* Build configuration list for PBXNativeTarget "iRainmeterTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +478,7 @@
 				4175094A1840412700F675D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

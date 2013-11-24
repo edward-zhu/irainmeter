@@ -654,7 +654,7 @@
                         <action selector="settingButton:" target="494" id="r14-nT-XOP"/>
                     </connections>
                 </menuItem>
-                <menuItem title="关于" id="CvR-jG-uww">
+                <menuItem title="iRainmeter" id="CvR-jG-uww">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
             </items>
