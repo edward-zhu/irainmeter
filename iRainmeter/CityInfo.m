@@ -24,8 +24,8 @@
     self = [super init];
     self.city = [theCity stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
-    WEATHER_API_KEY = @"srRLeAmTroxPinDG8Aus3Ikl6tLGJd94";
-    AQI_API_KEY = @"psTHzAsyW9U57stvGNYP";
+    WEATHER_API_KEY = @"";
+    AQI_API_KEY = @"";
     cityCode = [self getCityCode];
     
     return self;
